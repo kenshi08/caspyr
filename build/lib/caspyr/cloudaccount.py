@@ -258,7 +258,7 @@ class CloudAccountvSphere(Base):
                username,
                password,
                datacenter_moid,
-               nsx_cloud_account=None,
+               nsx_cloud_account,
                description=None
                ):
         """[summary]
